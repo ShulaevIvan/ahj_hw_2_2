@@ -38,7 +38,7 @@ export function createTable() {
   const tdHeaderTitle = document.createElement('th');
   const tdHeaderYear = document.createElement('th');
   const tdHeaderImdb = document.createElement('th');
-  tdHeaderId.textContent = 'id';
+  tdHeaderId.innerHTML = 'id \u{2193}';
   tdHeaderTitle.textContent = 'title';
   tdHeaderImdb.textContent = 'imdb';
   tdHeaderYear.textContent = 'year';
