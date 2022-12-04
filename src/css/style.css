@@ -1,0 +1,4 @@
+.main_table td, .main_table tr, .main_table th {
+    border: 1px solid gray;
+    padding:  10px;
+}
